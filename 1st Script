@@ -1,0 +1,27 @@
+INSERT INTO contactos(id_contactos, Apellidos, Nombres, Direccion) values
+(1, "Navarro", "Eduardo", "Av Lima 435"),
+(2, "Hurtado", "Tamara", "Esnaola 275"),
+(3, "Terzi", "Gabriela", "Villasol 485"),
+(4, "Palacios", "Gregorio", "Temperley 48"),
+(5, "Muselli", "Ortiz", "Gregorio Laferrere 25")
+
+
+INSERT INTO email_contacto(id_email_contacto, email_cont) values
+(1,"enavarro@rowing.com.ar"),
+(2, "thurtado@ocasa.com.ar"),
+(3, "gterzi@fugas.com.ar"),
+(4, "gpalacios@concentrix.com.ar"),
+(5, "omuselli@prosystems.com.ar")
+
+Select * from email_contacto
+
+insert into telefonos_contactos(id_telefonos_cont,telefonos_cont)values
+(1,1170961548),
+(2, 1180956825),
+(3, 1150649582),
+(4, 1128459682),
+(5, 1170967608);
+
+select *
+from contactos
+where id_contactos = 1;
